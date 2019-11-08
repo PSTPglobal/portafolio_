@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+/* import fonts from fonts.css file */ 
+@import url(./assets/css/fonts.css);
+@import url(./assets/css/partials/_variables.css);
+@import url(./assets/css/partials/_global.css);
+
+.navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.navbar{
+    padding: 1rem 20rem ;
+}
+
+.nav-item .nav-link {
+    font-family:  var(--roboto);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-variant: small-caps;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+.navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+
+
+.site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-title h1{
+    font-size: 5rem;
+}
+
+.site-title h4{
+    font-size: 1.5rem;
+}
+.site-banner {
+    background: url(./assets/img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+.site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
