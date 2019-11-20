@@ -11,6 +11,7 @@ import { PagesComponent } from './components/pages/pages.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { BannerComponent } from './components/home/banner/banner.component';
+import { CvComponent } from './components/cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BannerComponent } from './components/home/banner/banner.component';
     PagesComponent,
     ContactComponent,
     HomeComponent,
-    BannerComponent
+    BannerComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,

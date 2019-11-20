@@ -6,10 +6,16 @@ import { ServicesComponent } from './components/services/services.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { CvComponent } from './components/cv/cv.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent,
+    children: [
+      { path: 'cv', component: CvComponent },
+      { path: '**', pathMatch: 'full', redirectTo: 'home' }// para tener una ruta por defecto
+    ]
+  },
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'portafolio', component: PortafolioComponent },
