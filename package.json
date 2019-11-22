@@ -19,11 +19,14 @@
         "@angular/platform-browser": "~8.2.11",
         "@angular/platform-browser-dynamic": "~8.2.11",
         "@angular/router": "~8.2.11",
+        "@types/waypoints": "^4.0.1",
+        "angular-waypoints": "^2.0.0",
         "chart.js": "^2.9.2",
         "easy-pie-chart": "^2.1.7",
         "jquery": "^3.4.1",
         "rxjs": "~6.4.0",
         "tslib": "^1.10.0",
+        "waypoints": "^4.0.1",
         "zone.js": "~0.9.1"
     },
     "devDependencies": {
@@ -34,6 +37,7 @@
         "@types/chart.js": "^2.9.1",
         "@types/jasmine": "~3.3.8",
         "@types/jasminewd2": "~2.0.3",
+        "@types/jquery": "^3.3.31",
         "@types/node": "~8.9.4",
         "codelyzer": "^5.0.0",
         "jasmine-core": "~3.4.0",

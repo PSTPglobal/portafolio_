@@ -1,23 +1,32 @@
-<section class="site-banner2">
-    <div class="container">
-        <div class="row entrada">
-            <div class="site-title">
-                <h3 class="title-text"> hey! </h3>
-                <h2 class="title-text text-uppercase">Soy Saul Reyes</h2>
-                <h4 class="title-text text-uppercase">Freelance Web Developer.</h4>
-                <div class="site-buttons">
-                    <div class="d-flex flex-row flex-wrap">
-                        <!--<button class="btn btn-outline-danger mr-5" style="border-radius: 40px">Contratar</button>-->
-                        <button class="btn btn-outline-warning " style="border-radius: 40px" [routerLink]="['cv']">CV</button>
+
+
+<body class="bg-info pt-5" >
+    <section class="site-banner2">
+            <div class="container">
+                <div class="row entrada">
+                    <div class="site-title">
+                        <h3 class="title-text"> hey! </h3>
+                        <h2 class="title-text text-uppercase">Soy Saul Reyes</h2>
+                        <h4 class="title-text text-uppercase">Freelance Web Developer.</h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <!--<button class="btn btn-outline-danger mr-5" style="border-radius: 40px">Contratar</button>
+                                <button class="btn btn-outline-warning " style="border-radius: 40px" [routerLink]="['cv']">CV</button>-->
+                                <button class="btn btn-outline-warning " id="btnCV" style="border-radius: 40px">CV</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 banner-image">
+                        <img src="../../../../assets/img/banner/sgv4.svg" alt="image" class="fluid-img">
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 banner-image">
-                <img src="../../../../assets/img/banner/sgv4.svg" alt="image" class="fluid-img">
-            </div>
+            
+        </section>
+        <div class="js--section-features">
+                <app-cv class="cv"></app-cv>
         </div>
-    </div>
-</section>
+</body>
 <!--<section class="site-banner">
     <div class="container">
         <div class="row">
