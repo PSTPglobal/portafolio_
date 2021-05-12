@@ -21,7 +21,7 @@
         "@angular/router": "~8.2.11",
         "@types/waypoints": "^4.0.1",
         "angular-waypoints": "^2.0.0",
-        "chart.js": "^2.9.2",
+        "chart.js": "^2.9.4",
         "easy-pie-chart": "^2.1.7",
         "jquery": "^3.4.1",
         "rxjs": "~6.4.0",
